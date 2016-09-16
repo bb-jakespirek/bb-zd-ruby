@@ -1,0 +1,12 @@
+Schools	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^class Schools$/;"	class	line:4
+hello_world	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.hello_world$/;"	singleton method	line:6	class:Schools
+to_csv	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.to_csv$/;"	singleton method	line:11	class:Schools
+parse_from_csv	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.parse_from_csv(csv_document)$/;"	singleton method	line:23	class:Schools
+fix_csm_name	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.fix_csm_name(full_name)$/;"	singleton method	line:33	class:Schools
+setup_csm	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.setup_csm(raw_import_array)$/;"	singleton method	line:40	class:Schools
+Schools	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^class Schools$/;"	class	line:4
+hello_world	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.hello_world$/;"	singleton method	line:6	class:Schools
+to_csv	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.to_csv$/;"	singleton method	line:11	class:Schools
+parse_from_csv	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.parse_from_csv(csv_document)$/;"	singleton method	line:23	class:Schools
+fix_csm_name	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.fix_csm_name(full_name)$/;"	singleton method	line:33	class:Schools
+setup_csm	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.setup_csm(raw_import_array)$/;"	singleton method	line:40	class:Schools

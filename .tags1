@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Schools	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^class Schools$/;"	class	line:4
+hello_world	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.hello_world$/;"	singleton method	line:6	class:Schools
+to_csv	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.to_csv$/;"	singleton method	line:11	class:Schools
+parse_from_csv	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.parse_from_csv(csv_document)$/;"	singleton method	line:23	class:Schools
+fix_csm_name	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.fix_csm_name(full_name)$/;"	singleton method	line:33	class:Schools
+setup_csm	/Users/jake.spirek/GitHub/bb-zd-ruby/lib/Schools.rb	/^  def self.setup_csm(raw_import_array)$/;"	singleton method	line:40	class:Schools
