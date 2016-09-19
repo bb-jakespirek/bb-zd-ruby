@@ -12,13 +12,8 @@ require 'lib/Schools'
 
 conf = YAML.load_file('zenconfig.yml')
 
-Schools.hello_world
 
-raw_import = Schools.parse_from_csv("incoming_csv/import_csm.csv")
-csm_list = Schools.setup_csm(raw_import)
-puts csm_list
 # config - setting up connections to your zendesk
-
 client = ZendeskAPI::Client.new do |config|
   config.url = conf['url']
   config.username = conf['user']
@@ -26,6 +21,18 @@ client = ZendeskAPI::Client.new do |config|
 end
 
 
+raw_import = Schools.parse_from_csv("incoming_csv/import_csm.csv")
+csm_list = Schools.setup_csm(raw_import)
+org_list = Schools.zd_get_orgs(client)
+
+Schools.update_zendesk(org_list, csm_list, client)
+
+# test1 = org_list.select{|org| org[:sfdc_id] == "001d00000228IKzAAM" }
+
+
+# puts org_list
+
+# puts csm_list
 
 
 
